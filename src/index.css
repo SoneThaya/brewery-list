@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.brewery-card {
+  width: 100%;
+  flex-direction: row;
+  
+}
+.brewery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 55%;
+  margin: 5px;
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
